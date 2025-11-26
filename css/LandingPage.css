@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: rgb(104, 9, 9);
+  color: white;
+}
+
+.nav {
+  width: 100%;
+  padding: 100%;
+  background: rgb(83, 39, 39);
+  border-bottom: 1px solid
+    rgba(rgb(87, 56, 56), rgb(38, 65, 38), rgb(67, 67, 105), 0.6);
+  backdrop-filter: blur(15px);
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: rgb(54, 114, 148);
+  letter-spacing: 1px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links li a {
+  position: relative;
+  font-size: 1.05rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: rgb(31, 91, 170);
+  transition: 0.3s;
+}
+
+.nav-links li a:hover {
+  color: rgb(207, 207, 193);
+  text-shadow: 0 0 10px rgb(79, 68, 90);
+}
+
+.btns {
+  display: flex;
+}
+
+.btn {
+  padding: 0.5rem 1.5rem;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 1rem;
+  background: rgb(116, 41, 41);
+  color: rgb(116, 25, 25);
+  box-shadow: 0 0 15px rgb(94, 1, 1);
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: rgb(214, 6, 6);
+  box-shadow: 0 0 25px rgb(92, 63, 63);
+}
