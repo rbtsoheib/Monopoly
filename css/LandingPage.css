@@ -4,6 +4,20 @@
   box-sizing: border-box;
 }
 
+h2 {
+  color: #9b1f23;
+  font-family: "Carter One", cursive;
+  font-size: 80px;
+  text-align: center;
+}
+
+span {
+
+  color: rgb(230, 154, 154);
+  font-size: 26px;
+
+}
+
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background: white;
@@ -89,12 +103,12 @@ nav {
 }
 
 .About-design {
-  color: rgb(146, 51, 51);
+  color: #9b1f23;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 80px;
-  font-family: cursive;
+  font-family: "Carter One", cursive ;
   font-weight: 600;
   /* margin-left: 200px; */
   margin-top: 100px;
@@ -103,83 +117,94 @@ nav {
 
 .About-p-design {
   color: black;
-  font-size: 19px;
-  font-weight: 800;
-  font-family: cursive;
+  font-size: 23px;
+  font-weight: 100;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   margin-left: 250px;
-  margin-top: 30px;
+  /* margin-top: 20px; */
   height: 200px;
   width: 900px;
 }
 
 
-footer{
-    background-color: #610505;
-    margin-top: 30px;
+
+footer {
+  background-color: #8f0f0f;
+  margin-top: 30px;
 }
-.footerContainer{
-    width: 100%;
-    padding: 70px 30px 20px ;
+.footerContainer {
+  width: 100%;
+  padding: 30px 30px 20px;
 }
-.socialIcons{
-    display: flex;
-    justify-content: center;
+.socialIcons {
+  display: flex;
+  justify-content: center;
 }
-.socialIcons a{
-    text-decoration: none;
-    padding:  10px;
-    background-color: white;
-    margin: 10px;
-    border-radius: 50%;
+.socialIcons a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
 }
-.socialIcons a i{
-    font-size: 2em;
-    color: rgb(139, 103, 103);
-    opacity: 0,9;
+.socialIcons a i {
+  font-size: 2em;
+  color: rgb(139, 103, 103);
+  opacity: 0, 9;
 }
 /* Hover affect on social media icon */
-.socialIcons a:hover{
-    background-color: #570d0d;
-    transition: 0.5s;
+.socialIcons a:hover {
+  background-color: #8f0f0f;
+  transition: 0.5s;
 }
-.socialIcons a:hover i{
-    color: white;
-    transition: 0.5s;
+.socialIcons a:hover i {
+  color: white;
+  transition: 0.5s;
 }
-.footerNav{
-    margin: 30px 0;
+.footerNav {
+  margin: 30px 0;
 }
-.footerNav ul{
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
+.footerNav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
 }
-.footerNav ul li a{
-    color:white;
-    margin: 20px;
-    text-decoration: none;
-    font-size: 1.3em;
-    opacity: 0.7;
-    transition: 0.5s;
+.footerNav ul li a {
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+.footerNav ul li a:hover {
+  opacity: 1;
+}
+.footerBottom {
+  background-color: #793030;
+  padding: 20px;
+  text-align: center;
+}
+.footerBottom p {
+  color: white;
+}
+
+.p-footer-design{
+
+  color: black;
+  margin-left: 370px;
+  margin-bottom: 50px;
+  font-size: 15px;
+  font-weight: 600 ;
 
 }
-.footerNav ul li a:hover{
-    opacity: 1;
-}
-.footerBottom{
-    background-color: #793030;
-    padding: 20px;
-    text-align: center;
-}
-.footerBottom p{
-    color: white;
-}
-.designer{
-    opacity: 0.7;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 400;
-    margin: 0px 5px;
+
+.designer {
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
 }
 /* @media (max-width: 700px){
     .footerNav ul{
@@ -195,3 +220,140 @@ footer{
         margin: 4px;
     }
 } */
+
+.img-footer-design-div{
+
+  display: flex;
+
+}
+
+.img-footer-design{
+
+  margin-left: 200px;
+  margin-top: 0px ;
+
+
+}
+
+.img-footer-design2{
+
+  margin-left: 500px ;
+  height: 160px;
+  width: 320px;
+  
+
+}
+
+.img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+.map {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.para {
+  padding-top: 60px;
+  padding-left: 25px;
+  padding-right: 25px;
+  flex: 1;
+}
+.titre {
+  color: white;
+  font-size: 28px;
+  text-align: center;
+  font-family: "Carter One", cursive;
+  margin: 0px;
+  padding: 0px;
+}
+
+.sous-titre {
+  margin: 0px;
+  margin-top: 40px;
+  font-size: 24px;
+  color: white;
+  text-align: left;
+  font-family: "Alfa Slab One", cursive;
+}
+
+.icon-pos {
+  align-items: center;
+  margin-top: 30px;
+  flex: 1;
+}
+.icon1 {
+  width: 120px;
+  height: auto;
+  object-fit: fit;
+}
+.journey {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+}
+.cart,
+.cart2 {
+  align-items: center;
+  background-color: #9b1f23;
+  border: none;
+  border-radius: 45px;
+  width: 300px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.cart2 {
+  margin-top: 0px;
+}
+.Box {
+  margin-left: 35px;
+  margin-right: 35px;
+  padding: 0px;
+  flex: 1;
+}
+.Box2 {
+  flex: 1;
+  margin: 0px;
+  padding: 0px;
+}
+.icon3 {
+  padding: 0;
+  margin: 0;
+  width: 195px;
+  height: auto;
+  object-fit: fit;
+  align-items: center;
+  position: static;
+  margin-left: 55px;
+  display: block;
+}
+
+.icon2 {
+  width: 120px;
+  height: auto;
+  object-fit: fit;
+}
+
+@media (max-width: 900px) {
+  .journey {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  .cart,
+  .cart2 {
+    width: 85%;
+  }
+}
