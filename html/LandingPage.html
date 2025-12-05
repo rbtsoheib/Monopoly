@@ -12,7 +12,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Carter+One&display=swap" rel="stylesheet">
-    
+    <link rel="stylesheet" href="/css/questions.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Carter+One&family=Racing+Sans+One&family=Raleway:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   </head>
   <body>
     <!-- of course this is for the navigation bar ; to navigate in the website  -->
@@ -22,10 +26,10 @@
       <div class="Logo"><img src="/assets/logo.png" alt="logo" /></div>
       <ul class="nav-links">
         <li><a href="/html/LandingPage.html">Home</a></li>
-        <li><a href="">About</a></li>
-        <li><a href="">Tour Journey</a></li>
-        <li><a href="">Questions</a></li>
-        <li><a href="">Partners</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#journey">Tour Journey</a></li>
+        <li><a href="#questions">Questions</a></li>
+        <li><a href="#contact">contact</a></li>
       </ul>
       <div class="btns">
         <button class="btn">Register Now</button>
@@ -44,7 +48,7 @@
 
     <!-- this div is specifically for the about section -->
 
-    <div>
+    <div id="about">
       <h1 class="About-design">About Monopoly Round World</h1>
 
       <!-- when it comes to these paragraphs ; i will copy or just copy the text needed -->
@@ -69,7 +73,7 @@
 
     <!-- this is a section dedicated for the journey part of the website  -->
 
-    <section id="journey">
+    <section id="journey" >
         <h2>Embark On Your Journey</h2>
 
         <div class="img">
@@ -134,10 +138,49 @@
         </div>
         
       </section>
+       <!-- your questions section -->
+  <div id="questions" class="qsts-container">
+    <h2>Your Questions</h2>
+    
+    <details class="qst-item">
+        <summary class="qst-question">
+            <span>■ who can participate in the event ?</span>
+        </summary>
+        <div class="qst-answer">
+            <p class="note">The answer is here.</p>
+        </div>
+    </details>
+
+    <details class="qst-item" > 
+        <summary class="qst-question open">
+            <span>■ where and when  the event will be occur ?</span>
+        </summary>
+        <div class="qst-answer">
+            <p class="note">* Never, this event will help you to improve your skills</p>
+        </div>
+    </details>
+    <details class="qst-item" > 
+        <summary class="qst-question open">
+            <span>■ how to participate in monopoly around world ?</span>
+        </summary>
+        <div class="qst-answer">
+            <p class="note">* Never, this event will help you to improve your skills</p>
+        </div>
+    </details>
+    <details class="qst-item" > 
+        <summary class="qst-question open">
+            <span>■ is it required to have certain skills to participate ?</span>
+        </summary>
+        <div class="qst-answer">
+            <p class="note">* Never, this event will help you to improve your skills</p>
+        </div>
+    </details>
+</div>  
+    <!--end your questions section -->
 
     <!-- this is the footer of the website -->
 
-    <footer>
+    <footer id="contact">
        <div class="footerContainer">
 
         <div class="img-footer-design-div">

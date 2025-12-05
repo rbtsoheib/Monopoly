@@ -11,7 +11,7 @@ h2 {
   text-align: center;
 }
 
-span {
+.About-design span {
 
   color: rgb(230, 154, 154);
   font-size: 26px;
@@ -19,10 +19,11 @@ span {
 }
 
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
   background: white;
   color: white;
 }
+
 
 nav {
   width: 100%;
