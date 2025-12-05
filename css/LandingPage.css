@@ -12,18 +12,14 @@ h2 {
 }
 
 .About-design span {
-
   color: rgb(230, 154, 154);
   font-size: 26px;
-
 }
 
 body {
-  
   background: white;
   color: white;
 }
-
 
 nav {
   width: 100%;
@@ -109,7 +105,7 @@ nav {
   align-items: center;
   justify-content: center;
   font-size: 80px;
-  font-family: "Carter One", cursive ;
+  font-family: "Carter One", cursive;
   font-weight: 600;
   /* margin-left: 200px; */
   margin-top: 100px;
@@ -120,14 +116,12 @@ nav {
   color: black;
   font-size: 23px;
   font-weight: 100;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   margin-left: 250px;
   /* margin-top: 20px; */
   height: 200px;
   width: 900px;
 }
-
-
 
 footer {
   background-color: #8f0f0f;
@@ -190,14 +184,12 @@ footer {
   color: white;
 }
 
-.p-footer-design{
-
+.p-footer-design {
   color: black;
   margin-left: 370px;
   margin-bottom: 50px;
   font-size: 15px;
-  font-weight: 600 ;
-
+  font-weight: 600;
 }
 
 .designer {
@@ -222,27 +214,19 @@ footer {
     }
 } */
 
-.img-footer-design-div{
-
+.img-footer-design-div {
   display: flex;
-
 }
 
-.img-footer-design{
-
+.img-footer-design {
   margin-left: 200px;
-  margin-top: 0px ;
-
-
+  margin-top: 0px;
 }
 
-.img-footer-design2{
-
-  margin-left: 500px ;
+.img-footer-design2 {
+  margin-left: 500px;
   height: 160px;
   width: 320px;
-  
-
 }
 
 .img {
@@ -358,3 +342,68 @@ footer {
     width: 85%;
   }
 }
+
+/* your question section */
+body {
+  font-family: "Carter One";
+}
+.qsts-container {
+  max-width: 600px;
+  margin: 20px auto;
+  color: #333;
+}
+
+.qsts-container h2 {
+  font-size: 2em;
+  margin-bottom: 25px;
+  color: #9b3030;
+  font-weight: 500;
+}
+
+.qst-item {
+  border-bottom: 2px dashed #ccc;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.qst-question {
+  list-style: none;
+  list-style-type: none;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  font-size: 1.1em;
+  padding: 5px 0;
+  font-weight: 400;
+}
+.qst-question span:first-child {
+  padding-left: 20px;
+  position: relative;
+}
+
+.qst-item summary::after {
+  content: "V";
+  font-weight: bold;
+  color: black;
+  margin-left: 10px;
+  background-color: white;
+  border-color: black;
+  width: 20px;
+  border-width: 5px;
+}
+
+.qst-item[open] summary::after {
+  content: "^";
+}
+.qst-answer {
+  padding: 10px 0 10px 25px;
+  margin-top: -5px;
+}
+.qst-answer .note {
+  color: #4caf50;
+  font-style: italic;
+  margin: 0;
+}
+/* end your question section */
